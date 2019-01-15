@@ -1,0 +1,13 @@
+* {
+    border-radius: 0 !important;
+}
+
+body {
+    background-color: #E7F7F9;
+    font-family: 'Poppins', sans-serif;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent !important; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
